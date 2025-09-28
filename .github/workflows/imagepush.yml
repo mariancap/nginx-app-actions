@@ -9,7 +9,7 @@ jobs:
         name: Build and Push Docker Image
         runs-on: ubuntu-latest
         steps:
-            # 1. Checkout source code
+            # 1 - Checkout source code
             - name: Checkout source code
               uses: actions/checkout@v4
             - name: Set up Docker Buildx
